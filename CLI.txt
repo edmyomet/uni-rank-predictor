@@ -1,1 +1,1 @@
-New-Item -Path 'C:\Users\shrut\OneDrive\Pictures\wallpapers\Documents\uni-rank-predictor-git\src\__format.py' -ItemType File
+New-Item -'src\__format.py' -ItemType File
