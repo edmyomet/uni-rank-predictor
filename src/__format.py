@@ -23,7 +23,6 @@ class FormatModule:
         for index in range(6):
             df = self.rank_list[index]
             year = self.year_list[index]
-            
             df = add_column(df, [year]*df.shape[0])
     
     def __merge_save(self) -> pd.core.frame.DataFrame:
